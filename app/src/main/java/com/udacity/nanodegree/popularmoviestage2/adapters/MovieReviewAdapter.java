@@ -42,7 +42,7 @@ public class MovieReviewAdapter extends ArrayAdapter<MovieReview> {
         }
 
         viewHolder.reviewAuthorName.setText(movieReviews.get(position).getAuthor());
-        viewHolder.reviewContent.setText(Html.fromHtml(movieReviews.get(position).getContent()));
+        viewHolder.reviewContent.setText(Html.fromHtml(movieReviews.get(position).getContent(),Html.FROM_HTML_MODE_COMPACT));
         return convertView;
     }
 
