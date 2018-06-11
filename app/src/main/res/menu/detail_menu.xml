@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_add_favorite"
+        android:icon="@drawable/ic_favorite"
+        android:title="@string/action_add_favorite"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_un_favorite"
+        android:icon="@drawable/ic_unfavorite"
+        android:title="@string/action_un_favorite"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_read_review"
+        android:icon="@drawable/ic_read_review"
+        android:title="@string/action_read_review"
+        app:showAsAction="always" />
+</menu>

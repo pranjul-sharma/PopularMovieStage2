@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- making common attributes for views a single style for code reusability. -->
+    <style name="movieOrderButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:buttonTint">@color/colorPrimary</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Medium</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="textHomeStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Large</item>
+    </style>
+
+    <style name="tvDetailHeading">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">@dimen/padding</item>
+        <item name="android:paddingTop">@dimen/padding</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Medium</item>
+    </style>
+
+    <style name="tvDetailContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/cardview_margin</item>
+        <item name="android:paddingStart">@dimen/padding</item>
+        <item name="android:textAppearance">
+            @style/Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small
+        </item>
+        <item name="android:textColor">@color/colorSecondary</item>
+    </style>
+
+    <style name="textItalicStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Small</item>
+        <item name="android:textColor">@color/colorSecondaryText</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginEnd">@dimen/standard_margin</item>
+    </style>
+
+</resources>

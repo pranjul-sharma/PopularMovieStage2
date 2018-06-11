@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/cardview_marginEnd"
+    android:background="@color/colorWhite"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/cardview_marginEnd"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:padding="@dimen/padding">
+
+        <TextView
+            style="@style/textHomeStyle"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/sort_by"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/tv_sort_order"
+            style="@style/textHomeStyle"
+            android:layout_marginStart="@dimen/cardview_marginEnd"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Popularity"
+            android:textColor="@color/colorPrimary" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/marginTop">
+
+    <TextView
+        style="@style/textHomeStyle"
+        android:fontFamily="monospace"
+        android:text="@string/dialog_title"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/movie_order_selector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/cardview_margin"
+        android:gravity="center_vertical"
+        android:padding="@dimen/cardview_marginEnd">
+
+        <RadioButton
+            android:id="@+id/movie_by_popularity"
+            style="@style/movieOrderButtonStyle"
+            android:tag="@string/movie_by_popularity_value"
+            android:text="@string/movie_by_popularity_key" />
+
+        <RadioButton
+            android:id="@+id/movie_by_rating"
+            style="@style/movieOrderButtonStyle"
+            android:tag="@string/movie_by_rating_value"
+            android:text="@string/movie_by_rating_key" />
+
+        <RadioButton
+            android:id="@+id/movie_by_favorite"
+            style="@style/movieOrderButtonStyle"
+            android:tag="@string/movie_by_favorite_value"
+            android:text="@string/movie_by_favorite_key" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/action_cancel_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="@dimen/marginTop"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/action_cancel"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small"
+        android:textColor="@color/colorBlack" />
+</LinearLayout>

@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Popular Movie Stage 2</string>
+    <string name="sort_by">Showing by: </string>
+
+    <!-- Api key constants for accessing tmdb server. -->
+    <string name="api_key">api_key</string>
+    <!-- put your api key for tmdb server here. -->
+    <string name="moviedb_api_key">{YOUR_API_KEY_HERE}</string>
+
+    <!-- action key for storing user preferences. -->
+    <string name="action_sort_order">sort by</string>
+    <string name="action_add_favorite">Add to favorite</string>
+    <string name="action_un_favorite">Remove from favorite</string>
+    <string name="action_read_review">Read movie reviews</string>
+
+    <!-- various strings for showing in user setting for changing his preferences. -->
+    <string name="dialog_title">Choose one.</string>
+    <string name="action_cancel">Cancel</string>
+
+    <!-- name and keys for storing data in sharedPreferences. -->
+    <string name="sp_name">MoviePrefs</string>
+    <string name="sp_key_movie_order">Movie order</string>
+    <string name="sp_key_movie_current_type">Movie current type</string>
+
+    <string name="movie_by_popularity_key">Popularity</string>
+    <string name="movie_by_rating_key">Top rated</string>
+    <string name="movie_by_favorite_key">Favorites</string>
+    <string name="movie_by_popularity_value">popular</string>
+    <string name="movie_by_rating_value">top_rated</string>
+    <string name="movie_by_favorite_value">favorite_movies</string>
+
+    <!-- Heading under which data for movie in DetailActivity is being shown. -->
+    <string name="original_lang">Original Language:</string>
+    <string name="release_date">Release Date:</string>
+    <string name="overview">Overview:</string>
+    <string name="movie_videos">Video clips available:</string>
+    <string name="movie_video_async_key">videos</string>
+    <string name="movie_reviews_async_key">reviews</string>
+
+    <!-- string for providing placeholder content description to the imageviews. -->
+    <string name="placeholder">This view will show an image for a movie.</string>
+    <string name="no_internet">No internet connection.</string>
+    <string name="no_internet_favorite">Internet not available. Showing favorite movies.</string>
+    <string name="no_video_available">Sorry, no video is available for this movie.</string>
+    <string name="no_review_available">Sorry, no review is available for this movie.</string>
+    <string name="no_video_internet">Unable to fetch movie videos since there is no internet available.</string>
+    <string name="no_favorite_movie">No favorite movie available yet.</string>
+    <string name="added_favorite">Movie added to Favorites.</string>
+    <string name="removed_favorite">Movie removed from Favorites.</string>
+    <string name="iv_movie_description">Video thumbnail will appear here if updated in future.</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:padding="@dimen/padding" android:id="@+id/movie_video_holder">
+
+    <TextView
+        android:layout_marginTop="@dimen/marginTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorSecondaryText"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:fontFamily="sans-serif-smallcaps"
+        android:id="@+id/tv_author_name"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryText"
+        android:id="@+id/tv_content"
+        android:fontFamily="monospace"
+        android:layout_marginStart="@dimen/padding"
+        android:layout_below="@id/tv_author_name"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+        />
+
+</RelativeLayout>
